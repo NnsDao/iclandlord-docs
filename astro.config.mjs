@@ -15,12 +15,17 @@ export default defineConfig({
           label: 'Guides',
           items: [
             // Each item here is one entry in the navigation menu.
-            { label: 'Example Guide', link: '/guides/example/' }
+            { label: 'Play Guide Game', link: '/guides/play-guide-game/' },
+            { label: 'FAQs', link: '/guides/faqs' }
           ]
         },
         {
-          label: 'Reference',
-          autogenerate: { directory: 'reference' }
+          label: 'Whitepaper',
+          autogenerate: { directory: 'whitepaper' }
+        },
+        {
+          label: 'Resources',
+          autogenerate: { directory: 'resources' }
         }
       ]
     })
